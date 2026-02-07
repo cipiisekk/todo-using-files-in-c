@@ -1,3 +1,0 @@
-/home/cipisek/Documents/github/todo-with-files/build/CMakeFiles/todo.dir
-/home/cipisek/Documents/github/todo-with-files/build/CMakeFiles/edit_cache.dir
-/home/cipisek/Documents/github/todo-with-files/build/CMakeFiles/rebuild_cache.dir
