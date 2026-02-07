@@ -12,7 +12,7 @@ bool isSame(char* s1, char* s2){
     return true;
 }
 
-void my_lower(char* s){
+void myLower(char* s){
     if (*s >= 'A' && *s <= 'Z'){
         *s-= 'a' - 'A';
     }

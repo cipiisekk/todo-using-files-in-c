@@ -3,6 +3,6 @@
 
 void clearBuffer(void);
 bool isSame(char* s1, char* s2);
-void my_lower(char* s);
+void myLower(char* s);
 
 #endif // STRUTILS_H
