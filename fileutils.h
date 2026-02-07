@@ -2,7 +2,7 @@
 #define FILEUTILS_H
 
 bool checkIfOk(FILE* f, const char* what);
-bool createFiles();
+bool createFiles(void);
 FILE* openTodo(const char* mode);
 FILE* openTemp(const char* mode);
 
