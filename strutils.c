@@ -1,5 +1,8 @@
+#include "strutils.h"
+
 void clearBuffer(void){
-    while((char c = getchar()) != '\n' && c != EOF);
+    char c;
+    while((c = getchar()) != '\n' && c != EOF);
 }
 
 bool isSame(char* s1, char* s2){

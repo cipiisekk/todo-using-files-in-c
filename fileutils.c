@@ -1,3 +1,5 @@
+#include "fileutils.h"
+
 bool checkIfOk(FILE* f, const char* what){
     if (f == NULL) {
         perror(what);

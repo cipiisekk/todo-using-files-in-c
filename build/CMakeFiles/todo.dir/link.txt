@@ -1,0 +1,1 @@
+/usr/bin/cc -Wl,--dependency-file=CMakeFiles/todo.dir/link.d CMakeFiles/todo.dir/main.c.o CMakeFiles/todo.dir/todo.c.o CMakeFiles/todo.dir/fileutils.c.o CMakeFiles/todo.dir/strutils.c.o CMakeFiles/todo.dir/apputils.c.o -o todo
