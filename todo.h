@@ -5,9 +5,9 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-void add(const char *item);
-void list(void);
-void remove(int id);
-void complete(int id);
+void add_item(const char *item, int *itemCount);
+void list_items(void);
+void remove_item(int id);
+void complete_item(int id);
 
 #endif
