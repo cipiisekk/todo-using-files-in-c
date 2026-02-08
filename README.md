@@ -10,6 +10,7 @@ A command-line TODO application written in C that stores tasks in files and allo
 
 ## TODO LIST
 - [ ] improve algorithm for saving data (it sucks)
+- [ ] make possible to type spaces in input for item name
 
 <br>
 
