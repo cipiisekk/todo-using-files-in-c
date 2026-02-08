@@ -18,10 +18,17 @@ void chooseName(char *name) {
 }
 
 void chooseID(int *id){
-    printf("Type *ID* of the item, please: ");
-    scanf("%d", id);
-    if (*id <= 0){
-        printf("ERROR: ID cannot be smaller than 0");
+    printf("Type ID of the item, please: ");
+    if (scanf("%d", id) != 1){
+        clearBuffer();
+        printf("ERROR: ID isn't an integer\n");
         chooseID(id);
+        return;
+    }
+    clearBuffer();
+    if (*id <= 0){
+        printf("ERROR: ID cannot be same or smaller than 0\n");
+        chooseID(id);
+        return;
     }
 }
