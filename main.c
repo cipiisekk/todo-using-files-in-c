@@ -26,21 +26,21 @@ void app(void){
         if (isSame(choice, menu[0])) {
 
             chooseName(itemName);
-            add_item(itemName, &itemCount);
+            addItem(itemName, &itemCount);
 
         } else if (isSame(choice, menu[1])) {
 
             chooseID(&id);
-            remove_item(id);
+            removeItem(id);
 
         } else if (isSame(choice, menu[2])) {
 
-            list_items();
+            listItems();
         
         } else if (isSame(choice, menu[3])) {
 
             chooseID(&id);
-            complete_item(id);
+            completeItem(id);
 
         } else if (isSame(choice, menu[4])) {
             return;

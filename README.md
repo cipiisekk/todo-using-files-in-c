@@ -1,5 +1,10 @@
 # Simple todo list app
 A command-line TODO application written in C that stores tasks in files and allows users to add, list, remove, and complete tasks.
+<br>
+
+<img width="284" height="678.5" alt="image" src="https://github.com/user-attachments/assets/285285f3-7167-4c8c-a5d7-88379302ff43" />
+
+
 
 <br>
 
@@ -32,5 +37,6 @@ void myLower(char* s){
     }
 }
 ```
+
 
 

@@ -1,6 +1,6 @@
 #include "todo.h"
 
-void add_item(const char *item, int *itemCount)
+void addItem(const char *item, int *itemCount)
 {
     (*itemCount)++;
     FILE* todoFile = openTodo("a");
@@ -10,7 +10,7 @@ void add_item(const char *item, int *itemCount)
     printf("Item added, use list to list all items\n");
 }
 
-void list_items(void)
+void listItems(void)
 {
     FILE* todoFile = openTodo("r");
     if(!checkIfOk(todoFile, "Open TodoFile")) return;
@@ -26,7 +26,7 @@ void list_items(void)
     fclose(todoFile);
 }
 
-void remove_item(int id){
+void removeItem(int id){
     FILE* todoFile = openTodo("r");
     if (!checkIfOk(todoFile, "Open todoFile")) return;
     FILE* tempFile = openTemp("w");
@@ -66,7 +66,7 @@ void remove_item(int id){
     printf("Item was removed\n");
 }
 
-void complete_item(int id){
+void completeItem(int id){
     FILE* todoFile = openTodo("r");
     if (!checkIfOk(todoFile, "Open todoFile")) return;
     FILE* tempFile = openTemp("w");
